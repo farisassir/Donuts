@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Donuts</title>
+</head>
+<body>
+  <header>
+      <nav class="main-nav">
+          <ul>
+           <li><a href="#About">Make an order</a></li>
+          </ul>
+        </nav>
+  </header>
+  <section class="banner">
+    <img src="/img/Donuts.png" alt="Welcome picture">
+    <div class="welcome">
+      <h2>Best Donuts <br><span>& Caffe</span></h2>
+    </div>
+</section>
+<main>
+  </section>
+  <section id="About" class="Form">
+      <h2 id="Myorder">My Order</h2>
+      <div>
+      <form> 
+          <label>Guest Name</label>
+            <input type="text" name="Guest Name"id="guest"placeholder="Enter your name"required><br>        
+      <label>Choose your desired Donut</label>
+           <select id="myDonuts"> 
+              <option>Old-fashioned Doughnut</option>
+            </select>
+           <br><br>
+      <label>How many Donuts</label>
+      <select id = "donutsQty">
+          <option>1</option>
+      </select> <br><br>
+       <label>Chose your Drink</label>
+      <select id= "myDrinks">
+          <option>Hot chocolate</option>  
+      </select> <br><br>
+      <label>Coffe Size</label>
+      <select id= "coffeSize">
+          <option id="none" value="none" ></option>
+          <option id="larg" value="Larg" >Larg</option>
+          <option id="medium"value="Medium" >Medium</option>
+          <option id="small" value="Small">Small</option>
+      </select> <br><br>
+<button id="add-donuts">Check Order</button>
+  </form>
+</div>
+</section>
+  <section id="newOrder"></section>
+</main>
+  <footer>
+    <p class="copyright">Copyrights reserved 2019</p>
+  </footer>
+<script src="ShopItem.js"></script>
+<script src="Donut.js" ></script>
+<script src="Drink.js"></script>
+<script src="Order.js"></script> 
+<script src="OrderList.js"></script>
+<script src="Main.js"></script>
+
+</body>
+</html>
+
+
